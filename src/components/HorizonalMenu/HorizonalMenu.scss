@@ -1,0 +1,25 @@
+.HorizonalMenu {
+    display: flex;
+    background-color: white;
+    height: 100px;
+    border-radius: 20px;
+    align-items: center;
+
+    .horizontal-menu-link {
+        text-decoration: none;
+        color: black;
+        .horizonal-menu-btn {
+            width: 128px;
+            height: 40px;
+            background-color: white;
+            margin: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 10px;
+        }
+        .horizonal-menu-btn-active{
+            background-color: #ff6966;
+        }
+    }
+}
